@@ -1,6 +1,6 @@
 export type Sound = { text: string; src: string };
 
-export const sounds: Sound[] = [
+export const sounds: ReadonlyArray<Sound> = [
   { text: "ぐいのみです", src: "/sounds/guwinomidesu.wav" },
   { text: "ぐいいいいぃぃ", src: "/sounds/guwiiii.wav" },
   { text: "やば1", src: "/sounds/yaba_1.wav" },
